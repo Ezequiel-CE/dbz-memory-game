@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/dbz-memory-game/static/css/main.defc7c61.css",
+    "main.js": "/dbz-memory-game/static/js/main.799749a1.js",
+    "static/media/krillin.png": "/dbz-memory-game/static/media/krillin.30e8b96337d43c4e89f8.png",
+    "static/media/yamcha.png": "/dbz-memory-game/static/media/yamcha.b7a70959ba813fa8ef8c.png",
+    "static/media/roshi.png": "/dbz-memory-game/static/media/roshi.856cc278db06bcaf6408.png",
+    "static/media/goku-win.png": "/dbz-memory-game/static/media/goku-win.218a5d5530d670b1869b.png",
+    "static/media/piccolo.jpg": "/dbz-memory-game/static/media/piccolo.bbeed055bbe1b5081abc.jpg",
+    "static/media/18.jpg": "/dbz-memory-game/static/media/18.709cf6950a0cc29c3293.jpg",
+    "static/media/trunks.jpg": "/dbz-memory-game/static/media/trunks.f031fef1b892fb72a6a2.jpg",
+    "static/media/gogeta.jpg": "/dbz-memory-game/static/media/gogeta.d1d57467ab3706e3d5d0.jpg",
+    "static/media/goku.jpg": "/dbz-memory-game/static/media/goku.41495452bac960cc728d.jpg",
+    "static/media/vegito.jpg": "/dbz-memory-game/static/media/vegito.396feadf4c990d07a212.jpg",
+    "static/media/gohan.jpg": "/dbz-memory-game/static/media/gohan.78b1cb0ecf10f0d87765.jpg",
+    "static/media/goten.jpeg": "/dbz-memory-game/static/media/goten.37122c780f6b969885e4.jpeg",
+    "static/media/bulma.jpeg": "/dbz-memory-game/static/media/bulma.e201bff81dc7ae186e45.jpeg",
+    "static/media/vegeta.jpg": "/dbz-memory-game/static/media/vegeta.46190fd701589132e99d.jpg",
+    "static/media/broly.jpeg": "/dbz-memory-game/static/media/broly.082ad7eb77aad09d1d45.jpeg",
+    "static/media/Saiyan-Sans.ttf": "/dbz-memory-game/static/media/Saiyan-Sans.daf700d2a47edf876686.ttf",
+    "index.html": "/dbz-memory-game/index.html",
+    "main.defc7c61.css.map": "/dbz-memory-game/static/css/main.defc7c61.css.map",
+    "main.799749a1.js.map": "/dbz-memory-game/static/js/main.799749a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.defc7c61.css",
+    "static/js/main.799749a1.js"
+  ]
+}
