@@ -3,34 +3,127 @@
   margin: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: Saiyan-Sans;
+  src: url("../fonts/Saiyan-Sans.ttf");
+}
+
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(-25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-  background-color: rgb(87, 161, 87);
-  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.637);
+  margin-bottom: 40px;
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
+}
+
+.dbz-title {
+  font-family: Saiyan-Sans;
+  font-size: 80px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: yellow;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
 }
 
 .card {
   display: inline-block;
-  background-color: rgb(87, 161, 87);
+  background-color: rgba(255, 255, 255, 0.637);
+
   padding: 10px;
   border-radius: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 50px #dfd9cb;
 }
 
 .card img {
   height: 200px;
   width: auto;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .card h2 {
   text-align: center;
   font-size: 30px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.win-view {
+  padding-top: 100px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+/* CSS */
+.win-view button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: roboto, sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  padding: 5px 30px;
+
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.win-view button:hover {
+  background-color: #bcc0c0;
+}
+
+.win-view button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
 }

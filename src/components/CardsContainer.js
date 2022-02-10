@@ -42,7 +42,7 @@ const CardsContainer = ({
     return array;
   };
   return (
-    <div>
+    <div className="card-container">
       {shuffleArray(images).map((img) => (
         <Card
           handleScore={handleScore}

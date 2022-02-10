@@ -6,7 +6,10 @@ const Header = ({ score, bestScore }) => {
   return (
     <div className="header">
       <div className="text">
-        <h1>Memory game</h1>
+        <h1>
+          {" "}
+          <span className="dbz-title"> Dragon Ball</span> Memory game
+        </h1>
         <h3>
           Get points by clicking on an image, but don't click more than once or
           gonna lose!
