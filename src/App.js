@@ -1,23 +1,22 @@
-import "./App.css";
+import "./assets/css/App.css";
+import CardsContainer from "./components/CardsContainer";
+import Header from "./components/Header";
+import React, { useState } from "react";
 
-function App() {
+const App = () => {
+  const [score, setScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
+
+  const incrementScore = () => {
+    setScore(score + 1);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header score={score} />
+      <CardsContainer incrementScore={incrementScore} />
+    </>
   );
-}
+};
 
 export default App;
