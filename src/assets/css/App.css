@@ -63,11 +63,13 @@ body {
 
   padding: 10px;
   border-radius: 10px;
+  transition: all 200ms ease 0s;
 }
 
 .card:hover {
   cursor: pointer;
   box-shadow: 0 0 50px #dfd9cb;
+  transform: scale(1.1);
 }
 
 .card img {
