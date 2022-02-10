@@ -2,7 +2,7 @@ import React from "react";
 import Scores from "./Scores";
 import "../assets/css/App.css";
 
-const Header = ({ score }) => {
+const Header = ({ score, bestScore }) => {
   return (
     <div className="header">
       <div className="text">
@@ -12,7 +12,7 @@ const Header = ({ score }) => {
           gonna lose!
         </h3>
       </div>
-      <Scores score={score} />
+      <Scores score={score} bestScore={bestScore} />
     </div>
   );
 };

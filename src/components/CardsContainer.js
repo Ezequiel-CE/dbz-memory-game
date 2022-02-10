@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import Card from "./Card";
 import images from "../assets/images/images";
 
-const CardsContainer = ({ incrementScore }) => {
+const CardsContainer = ({
+  incrementScore,
+  resetScore,
+  addBestScore,
+  score,
+}) => {
   const [cardsID, setCardsID] = useState([]);
 
   const handleScore = (id) => {
@@ -12,6 +17,8 @@ const CardsContainer = ({ incrementScore }) => {
       incrementScore();
     } else {
       console.log("perdio");
+      setCardsID([]);
+      resetScore();
     }
   };
 
